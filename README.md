@@ -11,7 +11,7 @@
 
 ## Referência
 
- - [Jogo no qual eu me baseie](https://playgameoflife.com/)
+ - [Jogo no qual eu me inspirei](https://playgameoflife.com/)
  
 
 
