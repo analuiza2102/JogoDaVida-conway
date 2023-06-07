@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+
+body {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #264653;
+    background-color: #2F4858;
+    background-image:  radial-gradient(#2F4858 1.1500000000000001px, transparent 1.1500000000000001px), radial-gradient(#2D677B 1.1500000000000001px, #228898 1.1500000000000001px);
+    background-size: 46px 46px;
+    background-position: 0 0,23px 23px;
+}
+
+h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3rem;
+}
+
+a {
+    color: #2F4858;
+    font-size: 1rem;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    margin: .5rem auto .5rem auto;
+    display: grid;
+    place-items: center;
+}
+
+.header {
+    text-align: center;
+    padding: 5%;
+}
+
+.lista_regras{
+    text-align: center;
+    padding: 5%;
+}
+
+.lista_regras h2{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #30CDBE;
+}
+
+.lista_regras ul{
+    list-style: decimal;
+}
+
+.lista_regras ul li{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    text-align: justify;
+    color: aliceblue;
+}
+
+.info {
+    text-align: center;
+    color: #2F4858;
+}
+
+.info p{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.info p strong {
+    color: #30CDBE;
+}
+
+.game-area {
+    margin-bottom: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, #5FF0C4, rgba(120, 113, 170, 0.2));
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    margin-left: .5rem;
+    justify-content: center;
+   
+    border-radius: 2em;
+}
+
+.control-button {
+    border: none;
+    box-sizing: border-box;
+    border-radius: 0.25rem;
+    background: #2D677B;
+    color: white;
+    font-family: inherit;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    white-space: nowrap;
+    text-decoration: none;
+    padding: 0.25rem 0.5rem;
+    margin: 0.25rem;
+    cursor: pointer;
+}
+
+.control-button:active {
+    transform: scale(0.9);
+}
+
+.control-button:hover {
+    background: #2F4858;
+}
+
+footer {
+    background-color: #30CDBE;
+    padding: 1.5rem;
+    text-align: center;
+    color: #2F4858;
+    font-size: 1.5rem;
+    width: 100%;
+    margin: 0;
+}

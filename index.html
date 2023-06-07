@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+
+    <!--P5.js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.min.js" integrity="sha512-3RlxD1bW34eFKPwj9gUXEWtdSMC59QqIqHnD8O/NoTwSJhgxRizdcFVQhUMFyTp5RwLTDL0Lbcqtl8b7bFAzog==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+
+    <!--Fonts-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  
+
+
+    <title>Document</title>
+
+
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Jogo da Vida de Conway</h1>
+            <section class="lista_regras"> 
+                <ul class="Regras"> 
+                    <h2>Regras do Jogo:</h2>
+                    <li class="itens_lista">Qualquer espaço vazio com exatamente três vizinhos vivos se torna uma célula viva.</li>
+                    <li class="itens_lista">Qualquer célula viva com menos de dois vizinhos vivos morre de solidão.</li>
+                    <li class="itens_lista">Qualquer célula viva com mais de três vizinhos vivos morre de superpopulação.</li>
+                    <li class="itens_lista">Qualquer célula viva com dois ou três vizinhos vivos continua no mesmo estado para a próxima geração.</li>
+                </ul>
+            </section>
+        </div>
+        
+
+
+        <div class="info">
+            <p><strong>Dica:</strong> Limpe o tabuleiro e veja a mágica acontecer ao clicar nas células</p>
+        </div>
+
+
+        <div class="game-area">
+            <main>
+            </main>
+            <div class="controls">
+                <button id="limpar-grid" class="control-button"> ⬚ Limpar tabuleiro</button>
+                <button id="rodar-jogo" class="control-button"> ⮞ Rodar jogo</button>
+                <button id="gerar-grid" class="control-button"> ⭯ Gerar novo tabuleiro</button>
+            </div>
+        </div>
+
+
+        <footer>
+            <p> <a href="https://github.com/analuiza2102" target="_blank">Desenvolvido por Ana Luiza</a></p>
+           
+        </footer>
+    </div>
+
+</body>
+
+        
+        <script src="./js/script.js"></script>
+
+
+
+</body>
+</html>
