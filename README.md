@@ -1,4 +1,5 @@
 
+
 # Jogo da vida de Conway
 
 - Desafio para processo seletivo Rotas oficina
@@ -33,5 +34,9 @@ A melhor parte é que o p5.js é gratuito e de código aberto, pois acreditamos 
 ![App Screenshot](https://i.postimg.cc/gcfBvPVf/jogo-cel.jpg)
 
 
-[![video](https://youtu.be/vY45M0sNLTs)
 
+
+## Jogo em Funcionamento
+
+
+https://youtu.be/vY45M0sNLTs
