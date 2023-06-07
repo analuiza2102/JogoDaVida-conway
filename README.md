@@ -3,6 +3,8 @@
 # Jogo da vida de Conway
 
 - Desafio para processo seletivo Rotas oficina
+- Para rodar o projeto basta acessar o link do github pages:
+  https://analuiza2102.github.io/JogoDaVida-conway/
 
 
 
