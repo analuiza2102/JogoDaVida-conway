@@ -25,9 +25,9 @@
 
 **Front-end:** Html, Css e Javascript
 
-**Api p5.js:** Eu criei este projeto utilizando o incrível p5.js, uma biblioteca JavaScript para codificação criativa. O p5.js tem como objetivo tornar a programação acessível e inclusiva para pessoas de diferentes áreas, como artistas, designers, educadores e iniciantes como eu.
+**Api p5.js:** Eu criei este projeto utilizando o p5.js, uma biblioteca JavaScript para codificação criativa. O p5.js tem como objetivo tornar a programação acessível e inclusiva para pessoas de diferentes áreas, como artistas, designers, educadores e iniciantes como eu.
 
-A melhor parte é que o p5.js é gratuito e de código aberto, pois acreditamos que o conhecimento e as ferramentas para aprender a programar devem ser acessíveis a todos. Com o p5.js, pude explorar minha criatividade e criar projetos interativos e visualmente interessantes.
+A melhor parte é que o p5.js é gratuito e de código aberto. Com o p5.js, pude explorar minha criatividade e criar projetos interativos e visualmente interessantes.
 
 ## Jogo responsivo
 
